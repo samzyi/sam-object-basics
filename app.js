@@ -53,7 +53,9 @@ house.buy = function(){
             - Invoke the method set for the property 'buy'.
 */
 
-
+console.log(house)
+x = house.buy();
+console.log(x)
 
   /* 
     6. Declare a variable named `birthdayGift` and set its value to be an EMPTY object.
@@ -62,10 +64,19 @@ house.buy = function(){
               - add a property named `size` and set it to a number value between `0` and `20`.
               - add a property named `contents` and set it to be an empty array.
   */
+
+  var birthdayGift = {};
+  birthdayGift.bagOrBox = "bag"
+  birthdayGift.size = 20
+  birthdayGift.contents = []
   
   /*
      7. Add 3 elements to your birthdayGift contents property
  */
+
+birthdayGift.contents.push("book","picture","earbuds")
+
+console.log(birthdayGift.contents)
  
  /*
      8. Declare a variable named `bestMusicAlbum` and create the following properties (key-value pairs) to the object:
@@ -75,8 +86,20 @@ house.buy = function(){
               - add a key named `user` and set it to be `null`.
               - add a key named `songs` and set it to be an empty array.
   */
+
+bestMusicAlbum = {
+  artist : "lorde",
+  year : 2016,
+  albumCover : "cant remember",
+  user : null,
+  songs : []
+}
   
      /* 9. Add 3 elements to your birthdayGift contents property
      */
+
+birthdayGift.contents.push("book","picture","earbuds")
+
+
   //building & defining key pairs inside of the object, use a colon (:), inside of the { }
   //assigning & modifying require equal signs (=)
